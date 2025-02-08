@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 100%;
+            overflow-y: auto; /* Allow scrolling */
+        }
+
+        h1 {
+            font-size: 4em;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            letter-spacing: 5px;
+            margin-top: 40px;
+            background: linear-gradient(135deg, #1e3d58, #1f87a0); /* Gradient background */
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        footer {
+            font-size: 1.2em;
+            color: #bbb;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #222;
+            border-top: 3px solid #444;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Soft shadow around videos */
+        }
+
+        .video-card {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .video-card:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>GameTube</h1>
+    
+    <!-- Video 1 -->
+    <div class="video-container">
+        <div class="video-card">
+            <iframe src="https://drive.google.com/file/d/10bDsSWpZBeaxu2M5qZy9ll1CKgMghMJZ/preview" allow="autoplay"></iframe>
+        </div>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-container">
+        <div class="video-card">
+            <iframe src="https://drive.google.com/file/d/1Jj33j-2aNCG9_pJ2cd4WxUoss5dH6eW2/preview" allow="autoplay"></iframe>
+        </div>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-container">
+        <div class="video-card">
+            <iframe src="https://drive.google.com/file/d/11-_HYiXIT6rGjlnrsHnOdeMHUOnrtjYp/preview" allow="autoplay"></iframe>
+        </div>
+    </div>
+
+    <!-- Video 4 -->
+    <div class="video-container">
+        <div class="video-card">
+            <iframe src="https://drive.google.com/file/d/1PAbuDUNy7NUNhAoVrppYmQOrUScnkudP/preview" allow="autoplay"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 GameTube | All Rights Reserved
+    </footer>
+</body>
+</html>
